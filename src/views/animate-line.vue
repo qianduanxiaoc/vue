@@ -1,5 +1,7 @@
 <template>
-    <div class="animate-line"></div>
+    <div class="box">
+        <div class="content">内容占位</div>
+    </div>
 </template>
 <script>
     export default {
@@ -8,21 +10,27 @@
             return {}
         },
         computed: {
+
         },
         methods: {
+
         }
     }
 </script>
-<style module="s">
-    .animate-line {
+<style>
+.box {
     width: 200px;
-    height:200px;
-    padding:1em;
-    border: 1px solid transparent;
-    background: linear-gradient(white,white) padding-box, repeating-linear-gradient( -45deg, black 0, black 25%, white 0, white 50%) 0 /.6em;
-    animation:ants 12s linear infinite;
-    }
-    @keyframes ants {
-        to { background-position:100% }
-    }
+    background: repeating-linear-gradient(135deg, transparent, transparent 3px, #000 3px, #000 8px);
+    animation: shine 1s infinite linear;
+    overflow: hidden;
+}
+.content {
+    height: 128px;
+    margin: 1px; padding: 10px;
+    background-color: #fff;    
+}
+@keyframes shine {
+    0% { background-position: -1px -1px;}
+    100% { background-position: -12px -12px;}
+}
 </style>

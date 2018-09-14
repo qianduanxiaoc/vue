@@ -1,12 +1,22 @@
 <template>
-    <div>
-        
+    <div class="new-function">
+        <select name="" id="">
+            <option value="1">sadfg</option>
+            <option value="1">sadfg</option>
+            <option value="1">sadfg</option>
+            <option value="1">sadfg</option>
+            <option value="1">sadfg</option>
+        </select>
     </div>    
 </template>
 <script>
     export default {
     }
 </script>
-<style module="s">
-     
+<style lang="scss">
+    .new-function {
+        >div {
+            display: inline-block;
+        }
+    }
 </style>

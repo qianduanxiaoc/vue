@@ -30,12 +30,14 @@
             return {}
         },
         computed: {
+
         },
         methods: {
             callback(entries) {
                 //If intersectionRatio is 0, the target is out of view
                 //and we do not need to do anything
                 if (entries[0].intersectionRatio <= 0) return
+
                 this.loadItems()
             },
             loadItems() {
@@ -50,6 +52,7 @@
                 rootMargin: '40px',
                 threshold: 1.0 
             }
+
             var intersectionObserver = new IntersectionObserver(entries => this.callback(entries), options)
             // start observing
             intersectionObserver.observe(document.querySelector('.observer'))

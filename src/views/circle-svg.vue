@@ -129,6 +129,7 @@
     .wraperCircle {
         position: relative;
         display: inline-block;
+
         .svg{
             transform: rotate(-90deg);
             circle {
@@ -139,6 +140,7 @@
                 transform: rotate(-225deg);
             }
         }
+
         .circleInner {
             position: absolute;
             width: 100%;
@@ -147,4 +149,5 @@
             text-align: center;
         }
     }
+
 </style>

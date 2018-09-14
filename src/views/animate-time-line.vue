@@ -13,8 +13,10 @@
             return {}
         },
         computed: {
+
         },
         methods: {
+
         }
     }
 </script>
@@ -23,6 +25,7 @@ $step1Timer: 2s;
 $step2Timer: 2s;
 $step3Timer: 2s;
 $step4Timer: 2s;
+
 @mixin center() {
     position: absolute;
     left: 50%;
@@ -66,6 +69,7 @@ $step4Timer: 2s;
             -webkit-animation: step4 $step4Timer linear forwards ($step1Timer + $step2Timer + $step3Timer);
         }
     }
+
     @keyframes step1 {
         0% {
             height: 30px;
@@ -74,17 +78,21 @@ $step4Timer: 2s;
         20% {
             opacity: 1;
         }
+
         75% {
             opacity: 1;
         }
+
         99.9% {
             opacity: 0;
         }
+
         100% {
             opacity: 0;
             height: 0;
         }
     }
+
     @keyframes step2 {
         0% {
             height: 30px;
@@ -93,24 +101,30 @@ $step4Timer: 2s;
         20% {
             opacity: 1;
         }
+
         75% {
             opacity: 1;
         }
+
         99.9% {
             opacity: 0;
         }
+
         100% {
             opacity: 0;
             height: 0;
         }
     } 
+
     @keyframes step3 {
         0% {
             height: 30px;
         }
+
         50% {
             opacity: 1;
         }
+
         100% {
             left: 0;
             transform: translateX(0); 
@@ -119,6 +133,7 @@ $step4Timer: 2s;
             opacity: 1;
         }
     } 
+
     @keyframes step4 {
         0% {
             height: 60px;
@@ -127,6 +142,7 @@ $step4Timer: 2s;
         20% {
             opacity: 1;
         }
+
         100% {
             opacity: 1;
         }

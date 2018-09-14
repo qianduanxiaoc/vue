@@ -50,6 +50,10 @@
                     {
                         name: 'animateLine',
                         title: '蚂蚁线'
+                    },
+                    {
+                        name: 'game',
+                        title: 'game'
                     }
                 ]
             }
@@ -59,6 +63,7 @@
         methods: {
         },
         mounted() {
+
         }
     }
 </script>

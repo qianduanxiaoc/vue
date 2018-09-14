@@ -19,6 +19,7 @@
             return {
                 /*百分百*/
                 percent: 0,
+
                 /* 圆环直径 */
                 circleWidth: 120,
                 /* 进度环背景宽度 */
@@ -101,6 +102,7 @@
         background: transparent;
         transform: rotate(45deg);
     }
+
     .circle {
         position: absolute;
         border-radius: 50%;
@@ -117,6 +119,7 @@
             transition: transform 0.2s;
         }
     }
+
     .btn {
         display: inline-block;
         padding: 0 12px;
@@ -124,3 +127,4 @@
         cursor: pointer;
         border: 1px solid #0bb27a;
     }
+</style>

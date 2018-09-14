@@ -32,6 +32,7 @@
             return {}
         },
         computed: {
+
         },
         methods: {
         }
@@ -41,64 +42,84 @@
         .wraper {
             background: aquamarine;
         }
+
         .bg {
             color: #000;
         }
+
         .text {
             color: #fff;
             font-size: 30px;
         }
+
         .text1 {
             mix-blend-mode: color;
         }
+
         .text2 {
             mix-blend-mode: color-burn;
         }
+
         .text3 {
             mix-blend-mode: color-dodge;
         }
+
         .text4 {
             mix-blend-mode: darken;
         }
+
         .text5 {
             mix-blend-mode: difference;
         }
+
         .text6 {
             mix-blend-mode: exclusion;
         }
+
         .text7 {
             mix-blend-mode: hard-light;
         }
+
         .text8 {
             mix-blend-mode: hue;
         }
+
         .text9 {
             mix-blend-mode: inherit;
         }
+
         .text10 {
             mix-blend-mode: lighten;
         }
+
         .text11 {
             mix-blend-mode: luminosity;
         }
+
         .text12 {
             mix-blend-mode: multiply;
         }
+
         .text13 {
             mix-blend-mode: normal;
         }
+
         .text14 {
             mix-blend-mode: overlay;
         }
+
         .text15 {
             mix-blend-mode: saturation;
         }
+
         .text16 {
             mix-blend-mode: screen;
         }
+
         .text17 {
             mix-blend-mode: soft-light;
         }
+
         .text18 {
             mix-blend-mode: unset;
         }

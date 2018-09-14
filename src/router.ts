@@ -9,6 +9,7 @@ import circleSvg from './views/circle-svg.vue'
 import timeLine from './views/animate-time-line.vue'
 import newFunction from './views/new-function.vue'
 import animateLine from './views/animate-line.vue'
+import game from './views/game.vue'
 
 Vue.use(Router)
 
@@ -52,6 +53,10 @@ export default new Router({
             path: '/animateLine',
             name: 'animateLine',
             component: animateLine
+        }, {
+            path: '/game',
+            name: 'game',
+            component: game
         }
     ]
 })

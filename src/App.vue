@@ -4,20 +4,6 @@
             <menu-list></menu-list>
         </div>
         <div class="content">
-            <span @click="add">+</span>{{percent}}
-            <span @click="del">-</span>
-            <circle-demo
-                :percent="percent"
-                :size="size"
-                :strokeLinecap="strokeLinecap"
-                :strokeWidth="strokeWidth"
-                :strokeColor="strokeColor"
-                :trailWidth="trailWidth"
-                :trailColor="trailColor"
-                :trailBgc="trailBgc"
-                :dashboard="dashboard"
-            >
-            </circle-demo>
             <router-view></router-view>
         </div>
     </div>
@@ -25,38 +11,16 @@
 
 <script>
 import menuList from './components/menu.vue'
-import circleDemo from './views/circle-svg.vue'
 export default {
     name: 'app',
     components: {
-        menuList,
-        circleDemo
+        menuList
     },
     data() {
         return {
-            step: 10,
-            percent: 0,
-            size: 120,
-            strokeLinecap: 'butt',
-            strokeWidth: 20,
-            strokeColor: '#0bb27a',
-            trailBgc: 'transparent',
-            trailColor: '#e1e6eb',
-            trailWidth: 20,
-            dashboard: true
         }
     },
     methods: {
-        add() {
-            if(this.percent < 100) {
-                this.percent += this.step
-            }
-        },
-        del() {
-            if(this.percent > 0) {
-                this.percent -= this.step
-            }
-        }
     },
     mounted() {
     }

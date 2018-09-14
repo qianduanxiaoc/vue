@@ -35,6 +35,7 @@
         methods: {
         },
         mounted() {
+
         }
     }
 </script>
