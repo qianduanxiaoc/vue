@@ -50,9 +50,6 @@
         .bg {
             color: #000;
         }
-<<<<<<< HEAD
-
-=======
         .bgs {
             mix-blend-mode: luminosity;
             transition: all 0.2s;
@@ -61,7 +58,7 @@
         .bgs:hover {
             mix-blend-mode: normal;
         }
->>>>>>> 表格驱动
+        
         .text {
             color: #fff;
             font-size: 30px;
