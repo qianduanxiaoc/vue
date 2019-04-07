@@ -32,10 +32,6 @@
                         title: 'render'
                     },
                     {
-                        name: 'circleCss3',
-                        title: '进度环-css3'
-                    },
-                    {
                         name: 'circleSvg',
                         title: '进度环-svg'
                     },
@@ -54,6 +50,29 @@
                     {
                         name: 'game',
                         title: 'game'
+                    }, {
+                        name: 'filter',
+                        title: 'filter滤镜'
+                    },
+                    {
+                        name: 'mixBlendMode',
+                        title: 'mix-blend-mode混合'
+                    },
+                    {
+                        name: 'shapes',
+                        title: 'shapes 形状'
+                    },
+                    {
+                        name: 'shapesExp',
+                        title: 'shapes 形状应用'
+                    },
+                    {
+                        name: 'textAlign',
+                        title: 'justify 文本两端对齐'
+                    },
+                    {
+                        name: 'dataTable',
+                        title: '数据驱动表格'
                     }
                 ]
             }

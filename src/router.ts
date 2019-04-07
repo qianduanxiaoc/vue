@@ -10,6 +10,11 @@ import timeLine from './views/animate-time-line.vue'
 import newFunction from './views/new-function.vue'
 import animateLine from './views/animate-line.vue'
 import game from './views/game.vue'
+import filter from './views/filter.vue'
+import shapes from './views/shapes.vue'
+import shapesExp from './views/shapes-exp.vue'
+import textAlign from './views/text-align.vue'
+import dataTable from './views/data-table.vue'
 
 Vue.use(Router)
 
@@ -57,6 +62,26 @@ export default new Router({
             path: '/game',
             name: 'game',
             component: game
+        }, {
+            path: '/filter',
+            name: 'filter',
+            component: filter
+        }, {
+            path: '/shapes',
+            name: 'shapes',
+            component: shapes
+        }, {
+            path: '/shapes-exp',
+            name: 'shapesExp',
+            component: shapesExp
+        }, {
+            path: '/text-align',
+            name: 'textAlign',
+            component: textAlign
+        }, {
+            path: '/data-table',
+            name: 'dataTable',
+            component: dataTable
         }
     ]
 })

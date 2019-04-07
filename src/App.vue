@@ -4,6 +4,23 @@
             <menu-list></menu-list>
         </div>
         <div class="content">
+<<<<<<< HEAD
+=======
+            <!-- <span @click="add">+</span>{{percent}}
+            <span @click="del">-</span>
+            <circle-demo
+                :percent="percent"
+                :size="size"
+                :strokeLinecap="strokeLinecap"
+                :strokeWidth="strokeWidth"
+                :strokeColor="strokeColor"
+                :trailWidth="trailWidth"
+                :trailColor="trailColor"
+                :trailBgc="trailBgc"
+                :dashboard="dashboard"
+            >
+            </circle-demo> -->
+>>>>>>> 表格驱动
             <router-view></router-view>
         </div>
     </div>
