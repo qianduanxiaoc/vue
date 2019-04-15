@@ -15,6 +15,7 @@ import shapes from './views/shapes.vue'
 import shapesExp from './views/shapes-exp.vue'
 import textAlign from './views/text-align.vue'
 import dataTable from './views/data-table.vue'
+import dataTable2 from './views/data-table2.vue'
 
 Vue.use(Router)
 
@@ -82,6 +83,10 @@ export default new Router({
             path: '/data-table',
             name: 'dataTable',
             component: dataTable
+        }, {
+            path: '/data-table2',
+            name: 'dataTable2',
+            component: dataTable2
         }
     ]
 })

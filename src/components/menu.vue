@@ -73,6 +73,10 @@
                     {
                         name: 'dataTable',
                         title: '数据驱动表格'
+                    },
+                    {
+                        name: 'dataTable2',
+                        title: '数据驱动表格'
                     }
                 ]
             }
